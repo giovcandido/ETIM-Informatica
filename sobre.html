@@ -1,0 +1,253 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br" dir="ltr" class="csstransforms no-csstransforms3d csstransitions">
+<head>
+	<title> ETIM Informática Jaú </title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="content-type" content="text/html">
+  <meta name="author" content="ETIM Informatica Jaú - Turma 2016">
+  <meta name="description" content="Encontre conteúdo e posts relacionados a nossas matérias e a nossa turma rapidamente, onde e quando você quiser.">
+  <meta name="keywors" content="ETIM Informática - Jaú - ETEC Joaquim Ferreira do Amaral - Turma 2016">
+    
+	<script type="text/javascript" src="scripts/jquery.js"></script>
+	<script type="text/javascript" src="scripts/function.js"></script>
+
+        <link rel="stylesheet" href="styles/giovani.css" type="text/css"/>
+        <link rel="stylesheet" href="styles/andre.css" type="text/css"/>
+        <link rel="stylesheet" href="styles/desktop_style.css" type="text/css"/>
+        <link rel="stylesheet" href="styles/general_style.css" type="text/css">
+
+	<link rel="icon" type="image/ico" href="images/favicon.ico"/>
+</head>
+<body>
+
+<div id="wrap">
+  <header>
+  	<div class="inner relative">
+
+      <div id="wrap-logo">
+			   <span class="logo" href="#"> <a href="index.html"> <img id="logo" src="images/logo.png" alt="logo"> </a> </span>
+      </div>
+			<a id="menu-toggle" class="button dark" href="#"><i class="icon-reorder"></i></a>
+			<nav id="navigation">
+				<ul id="main-menu">
+					<li class="current-menu-item"><a href="index.html">Home</a></li>
+					<li class="parent">
+						<a href="#">Categorias</a>
+						<ul class="sub-menu">
+							<li>
+								<a class="parent" href="#"><i class="icon-file-alt"></i> Técnico</a>
+								<ul class="sub-menu">
+									<li><a href="#">Banco de Dados</a></li>
+									<li><a href="#">Instalação e Manutenção de Computadores</a></li>
+									<li><a href="#">Lógica de Programação</a></li>
+									<li><a href="#">Operação de Software Aplicativo</a></li>
+                  <li><a href="#">Técnicas de Programação para Internet</a></li>
+								</ul>
+							</li>
+              <li>
+                <a class="parent" href="#"><i class="icon-file-alt"></i> Ensino Médio</a> 
+                <ul class="sub-menu">
+                  <li><a href="#">Arte</a></li>
+                  <li><a href="#">Biologia</a></li>
+                  <li><a href="#">Educação Física</a></li>
+                  <li><a href="#">Filosofia</a></li>
+                  <li><a href="#">Física</a></li>
+                  <li><a href="#">Geografia</a></li>
+                  <li><a href="#">História</a></li>
+                  <li><a href="#">Inglês</a></li>
+                  <li><a href="#">Matemática</a></li>
+                  <li><a href="#">Português</a></li>
+                  <li><a href="#">Química</a></li>
+                  <li><a href="#">Sociologia</a></li>
+                </ul>
+              </li>
+						</ul>
+					</li>
+					<li class="parent">
+						<a href="#">Multimídia</a>
+						<ul class="sub-menu">
+							<li><a href="#">Áudios</a></li>
+							<li><a href="#">Galeria</a></li>
+              				<li><a href="videos.html">Vídeos</a></li>
+						</ul>
+					</li>
+          <li><a href="#">Contato</a></li>
+   		<li><a href="#">Sobre</a> </li>
+
+				</ul>
+			</nav>
+
+			<div class="clear"></div>
+		</div>	 
+  </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- Slider -->
+    <section id="slider" class="clear">
+       
+      
+    <div class="slideshow-container">
+
+    <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/aetec.jpg" width="600px" height="260px" alt="Banner Programação" style="width:100%">
+    <div class="text">
+    <h1>Legenda</h1>
+    </div>
+    </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/aetec.jpg" width="600px" height="260px" alt="Banner Programação" style="width:100%">
+    <div class="text">
+    <h1>Legenda</h1>
+    </div>
+    </div> 
+
+    <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/aetec.jpg" width="600px" height="260px" alt="Banner Programação" style="width:100%">
+    <div class="text">
+    <h1>Legenda</h1>
+    </div>
+    </div> 
+
+    <a class="prev" onclick="plusSlides(-1)" style="background-color:rgba(0,0,0,0.0)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)" style="background-color:rgba(0,0,0,0.0)">&#10095;</a>
+    </div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // muda o elemento a cada 5 seg
+}
+</script>
+
+      <figure>
+        <figcaption id="legenda_banner">
+          <h2 style="color: #2ECCFA"> ETIM Informática </h2>
+          <p style="color: white">Bem-vindo ao site oficial do primeiro ano de informática.</p>
+          <p style="color: white">Disponibilizaremos periodicamente aqui notícias, fotos, vídeos e conteúdos educacionais.</p>
+        </figcaption>
+      </figure>
+    </section>
+    <!-- main content -->
+    <div id="intro">
+      <section class="clear">
+        <!-- article 1 -->
+        <article id="participe" class="two_quarter">
+          <h2>Participe também!</h2>
+          <p>Fique à vontade e compartilhe seu feedback nas redes sociais.</p>
+          <p>Comunique os moderadores para que possamos atualizar o site com novos conteúdos.</p>
+          <p>Deixe sua opinião junto aos seus colegas, compartilhe e aproveite os conteúdos didáticos aqui disponíveis.</p>
+        </article>
+        <!-- article 2 -->
+        <article id="galeria" class="two_quarter lastbox">
+          <figure>
+            <ul class="clear">
+              <li><a href="#"><img src="images/etec-logo.png" width="130" height="130" alt=""></a></li>
+              <li><a href="#"><img src="images/etec-logo.png" width="130" height="130" alt=""></a></li>
+              <li class="last"><a href="#"><img src="images/etec-logo.png" width="130" height="130" alt=""></a></li>
+            </ul>
+            <figcaption><a href="#">Confira aqui nossa galeria »</a></figcaption>
+          </figure>
+        </article>
+      </section>
+    </div>
+    <!-- ########################################################################################## -->
+    <!-- ########################################################################################## -->
+    <!-- ########################################################################################## -->
+    <!-- ########################################################################################## -->
+    <div id="homepage" class="last clear">
+          <section id="localizacao" class="one_quarter">
+        <h2 class="title">Localização</h2>
+        <article>
+          <header>
+            <h2>ETEC Joaquim Ferreira do Amaral</h2>
+          </header>
+          <p>Rua Humaitá, 1090 - Centro, Jaú - SP</p>
+          <p>Telefone: (14) 3624-8585</p>
+          <a href="https://www.google.com.br/maps/place/Etec+Joaquim+Ferreira+do+Amaral/@-22.2933198,-48.5650785,17z/data=!3m1!4b1!4m5!3m4!1s0x94c757fe1abe1399:0x3b0bd1dacc48457e!8m2!3d-22.2933198!4d-48.5628898" target="_blank">Visualizar no Google Maps &raquo;</a>
+        </article>
+      </section>
+      <section id="atalhos" class="one_quarter">
+        <h2 class="title">Atalhos</h2>
+        <nav>
+          <ul>
+            <li class="quick_links"><a href="https://nsa.cps.sp.gov.br/" target="_blank">NSA</a></li>
+            <li class="quick_links"><a href="https://login.microsoftonline.com/" target="_blank">E-mail Institucional</a></li>
+            <li class="quick_links"><a href="http://www.etecjau.com.br/etecjau/" target="_blank">ETEC Jaú</a></li>
+            <li class="quick_links"><a href="http://www.cps.sp.gov.br/" target="_blank">Centro Paula Souza</a></li>
+            <li class="last"><a href="http://www.saopaulo.sp.gov.br/" target="_blank">Governo do Estado de São Paulo</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section id="sobre" class="two_quarter lastbox">
+        <h2 class="title" id="sobre"> Sobre Nós </h2>
+        <img class="imgl" src="images/sobre_nos.png" width="130" height="130" alt="">
+        <p id="texto_sobre">Somos alunos da ETEC Joaquim Ferreira do Amaral (Jaú), conhecida também como Escola Industrial, desenvolvemos este site com o intuito de manter os integrantes de nossa classe atualizados sobre assuntos de matérias do ano letivo e notícias do Brasil e do Mundo. </p>
+      </section>
+    </div>
+    <!-- / content body -->
+  </div>
+</div>
+<!-- Footer -->
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <p class="fl_right">Template by <a href="http://www.os-templates.com/" title="Free Website Templates" target="_blank">OS Templates</a></p>
+
+    <nav id="navegation2">
+      <ul id="rodape-menu">
+        <a href="#"> <li class="rede-social" id="facebook"> </li> </a>
+        <a href="#"> <li class="rede-social" id="plus"> </li> </a>
+        <a href="#"> <li class="rede-social" id="youtube"> </li> </a>
+      </ul>
+    </nav>
+
+    <p class="fl_left">Copyright &copy; 2016 - Todos os Direitos Reservados - ETIM Informática Jaú</p>
+  </footer>
+</div>
+</body>
+</html>
