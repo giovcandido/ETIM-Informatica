@@ -41,8 +41,8 @@ span.logo:hover #logo{-webkit-transform: rotate(2deg); -moz-transform: rotate(2d
 address, article, aside, figcaption, figure, footer, header, nav, section{display:block; margin:0; padding:0;}
 
 q{display:block; padding:0 10px 8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
-q:before{content:'“ '; font-size:26px;}
-q:after{content:' „'; font-size:26px; line-height:0;}
+q:before{content:'â€œ '; font-size:26px;}
+q:after{content:' â€ž'; font-size:26px; line-height:0;}
 
 /* ----------------------------------------------Wrapper-------------------------------------*/
 
@@ -62,8 +62,8 @@ h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:22px; font-weight:normal; 
 address{font-style:normal;}
 
 blockquote, q{display:block; padding:8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
-blockquote:before, q:before{content:'“ '; font-size:26px;}
-blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
+blockquote:before, q:before{content:'â€œ '; font-size:26px;}
+blockquote:after, q:after{content:' â€ž'; font-size:26px; line-height:0;}
 
 form, fieldset, legend{margin:0; padding:0; border:none;}
 legend{display:none;}
@@ -316,7 +316,7 @@ ul#rodape-menu li.rede-social:hover{
 #container .last{margin:0;}
 #container .more{text-align:right;}
 
-/* ------Slider-----*/
+/* ------Slider das Categorias!!!-----*/
 
 #container #slider{width:100%;}
 #container #slider figure{}
@@ -457,7 +457,7 @@ span#login{display: none;}
   to {opacity: 1}
 }
 
-/*----------------------------------------------Formulário p/ Contato-----------------------------------*/
+/*----------------------------------------------FormulÃ¡rio p/ Contato-----------------------------------*/
 
 #contato{
 	font-weight: bold;
@@ -562,8 +562,8 @@ span.logo:hover #logo{-webkit-transform: rotate(2deg); -moz-transform: rotate(2d
 address, article, aside, figcaption, figure, footer, header, nav, section{display:block; margin:0; padding:0;}
 
 q{display:block; padding:0 10px 8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
-q:before{content:'“ '; font-size:26px;}
-q:after{content:' „'; font-size:26px; line-height:0;}
+q:before{content:'â€œ '; font-size:26px;}
+q:after{content:' â€ž'; font-size:26px; line-height:0;}
 
 /* ----------------------------------------------Wrapper-------------------------------------*/
 
@@ -583,8 +583,8 @@ h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:22px; font-weight:normal; 
 address{font-style:normal;}
 
 blockquote, q{display:block; padding:8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
-blockquote:before, q:before{content:'“ '; font-size:26px;}
-blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
+blockquote:before, q:before{content:'â€œ '; font-size:26px;}
+blockquote:after, q:after{content:' â€ž'; font-size:26px; line-height:0;}
 
 form, fieldset, legend{margin:0; padding:0; border:none;}
 legend{display:none;}
@@ -837,6 +837,16 @@ ul#rodape-menu li.rede-social:hover{
 #container .last{margin:0;}
 #container .more{text-align:right;}
 
+/* ------Slider das Categorias!!!-----*/
+
+#container #slider{width:100%;}
+#container #slider figure{}
+#container #slider figure img{float:right; width:630px; height:300px;}
+#container #slider figure figcaption{display:block; float:left; width:290px; height:260px; padding:20px; overflow:hidden; color:#989898; background-color:#464646; line-height:1.6em;}
+#container #slider figure figcaption a{color:#00; background-color:#464646;}
+#container #slider figure h2{font-size:42px; font-weight:normal; font-style:italic; text-transform:none;}
+#container #slider figure footer{}
+	
 /* ------Slider-----*/
 
 #container #slider{display:block; width:100%; height:auto;}
@@ -988,7 +998,7 @@ span#login{display: none;}
   to {opacity: 1}
 }
 
-/*----------------------------------------------Formulário p/ Contato-----------------------------------*/
+/*----------------------------------------------FormulÃ¡rio p/ Contato-----------------------------------*/
 
 #contato{
 	font-weight: bold;
@@ -1093,8 +1103,8 @@ span.logo:hover #logo{-webkit-transform: rotate(2deg); -moz-transform: rotate(2d
 address, article, aside, figcaption, figure, footer, header, nav, section{display:block; margin:0; padding:0;}
 
 q{display:block; padding:0 10px 8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
-q:before{content:'“ '; font-size:26px;}
-q:after{content:' „'; font-size:26px; line-height:0;}
+q:before{content:'â€œ '; font-size:26px;}
+q:after{content:' â€ž'; font-size:26px; line-height:0;}
 
 /* ----------------------------------------------Wrapper-------------------------------------*/
 
@@ -1114,8 +1124,8 @@ h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:22px; font-weight:normal; 
 address{font-style:normal;}
 
 blockquote, q{display:block; padding:8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
-blockquote:before, q:before{content:'“ '; font-size:26px;}
-blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
+blockquote:before, q:before{content:'â€œ '; font-size:26px;}
+blockquote:after, q:after{content:' â€ž'; font-size:26px; line-height:0;}
 
 form, fieldset, legend{margin:0; padding:0; border:none;}
 legend{display:none;}
@@ -1506,7 +1516,7 @@ span#login{display: none;}
   to {opacity: 1}
 }
 
-/*----------------------------------------------Formulário p/ Contato-----------------------------------*/
+/*----------------------------------------------FormulÃ¡rio p/ Contato-----------------------------------*/
 
 #contato{
 	font-weight: bold;
