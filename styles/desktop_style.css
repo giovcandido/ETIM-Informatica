@@ -457,6 +457,75 @@ span#login{display: none;}
   to {opacity: 1}
 }
 
+/*----------------------------------------------Formulário p/ Contato-----------------------------------*/
+
+#contato{
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Arial;
+}
+
+#contato label{
+	display: block;
+	margin-bottom: 20px;
+}
+
+.campoNome, .campoEmail{
+	width: 220px;
+	font-size: 12px;
+	font-family: Arial;
+}
+
+textarea.campoMensagem{
+	width: 270px;
+	font-size: 12px;
+	font-family: Arial;
+	height: 100px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.botao_enviar{
+	width: 100px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	border: 1px solid black;
+	padding: 10px;
+	font-weight: bold;
+	display: block;
+	margin-top: 20px;
+	cursor: pointer;
+	-webkit-transition: background-color 0.6s;
+	-moz-transition: background-color 0.6s;
+	-o-transition: background-color 0.6s;
+}
+
+.botao_enviar:hover{
+	color: white;
+	background-color: gray;
+}
+
+#aside_contato{
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	margin-left: 700px;
+	margin-top: -272px;
+}
+
+.titulo_contato{
+	font-size: 28px;
+	font-style: italic;
+	color: rgb(0, 198, 198);
+}
+
+.texto_contato{
+	font-style: italic;
+	font-size: 18px;
+}
+
 }
 
 /* Telas Medianas */
@@ -919,6 +988,75 @@ span#login{display: none;}
   to {opacity: 1}
 }
 
+/*----------------------------------------------Formulário p/ Contato-----------------------------------*/
+
+#contato{
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Arial;
+}
+
+#contato label{
+	display: block;
+	margin-bottom: 20px;
+}
+
+.campoNome, .campoEmail{
+	width: 220px;
+	font-size: 12px;
+	font-family: Arial;
+}
+
+textarea.campoMensagem{
+	width: 270px;
+	font-size: 12px;
+	font-family: Arial;
+	height: 100px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.botao_enviar{
+	width: 100px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	border: 1px solid black;
+	padding: 10px;
+	font-weight: bold;
+	display: block;
+	margin-top: 20px;
+	cursor: pointer;
+	-webkit-transition: background-color 0.6s;
+	-moz-transition: background-color 0.6s;
+	-o-transition: background-color 0.6s;
+}
+
+.botao_enviar:hover{
+	color: white;
+	background-color: gray;
+}
+
+#aside_contato{
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	margin-left: 700px;
+	margin-top: -272px;
+}
+
+.titulo_contato{
+	font-size: 28px;
+	font-style: italic;
+	color: rgb(0, 198, 198);
+}
+
+.texto_contato{
+	font-style: italic;
+	font-size: 18px;
+}
+
 }
 
 /* Telas Pequenas */
@@ -1366,6 +1504,75 @@ span#login{display: none;}
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+/*----------------------------------------------Formulário p/ Contato-----------------------------------*/
+
+#contato{
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Arial;
+}
+
+#contato label{
+	display: block;
+	margin-bottom: 20px;
+}
+
+.campoNome, .campoEmail{
+	width: 220px;
+	font-size: 12px;
+	font-family: Arial;
+}
+
+textarea.campoMensagem{
+	width: 270px;
+	font-size: 12px;
+	font-family: Arial;
+	height: 100px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.botao_enviar{
+	width: 100px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	border: 1px solid black;
+	padding: 10px;
+	font-weight: bold;
+	display: block;
+	margin-top: 20px;
+	cursor: pointer;
+	-webkit-transition: background-color 0.6s;
+	-moz-transition: background-color 0.6s;
+	-o-transition: background-color 0.6s;
+}
+
+.botao_enviar:hover{
+	color: white;
+	background-color: gray;
+}
+
+#aside_contato{
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	margin-left: 700px;
+	margin-top: -272px;
+}
+
+.titulo_contato{
+	font-size: 28px;
+	font-style: italic;
+	color: rgb(0, 198, 198);
+}
+
+.texto_contato{
+	font-style: italic;
+	font-size: 18px;
 }
 
 }
