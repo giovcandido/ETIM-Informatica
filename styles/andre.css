@@ -443,4 +443,77 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 #footer{width: 96%;}
 #footer p{margin:0; padding:0; border:0;}
 
+/*----------------------------------------------Formulário p/ Contato-----------------------------------*/
+
+#contato{
+	margin-left: 10px;
+	margin-top: 100px;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Arial;
+}
+
+#contato label{
+	display: block;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+.campoNome, .campoEmail{
+	width: 190px;
+	font-size: 12px;
+	font-family: Arial;
+}
+
+textarea.campoMensagem{
+	width: 270px;
+	font-size: 12px;
+	font-family: Arial;
+	height: 100px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.botao_enviar{
+	width: 90px;
+	margin-left: 100px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	border: 1px solid black;
+	padding: 10px;
+	font-weight: bold;
+	display: block;
+	margin-top: 20px;
+	cursor: pointer;
+	-webkit-transition: background-color 0.6s;
+	-moz-transition: background-color 0.6s;
+	-o-transition: background-color 0.6s;
+}
+
+.botao_enviar:hover{
+	color: white;
+	background-color: gray;
+}
+
+#aside_contato{
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	margin-left: 10px;
+	margin-top: -390px;
+}
+
+.titulo_contato{
+	font-size: 24px;
+	font-style: italic;
+	color: rgb(0, 198, 198);
+}
+
+.texto_contato{
+	font-style: italic;
+	font-size: 16px;
+}
+
 }
