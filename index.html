@@ -7,7 +7,8 @@
 	<meta http-equiv="content-type" content="text/html">
   <meta name="author" content="ETIM Informatica Jaú - Turma 2016">
   <meta name="description" content="Encontre conteúdo e posts relacionados a nossas matérias e a nossa turma rapidamente, onde e quando você quiser.">
-  <meta name="keywors" content="ETIM Informática - Jaú - ETEC Joaquim Ferreira do Amaral - Turma 2016">
+  <meta name="keywors" content="ETIM Informática, Jaú, ETEC Joaquim Ferreira do Amaral, Turma 2016, jau, etec, etim">
+  <meta name="robots" content="index,follow">
     
 	<script type="text/javascript" src="scripts/jquery.js"></script>
 	<script type="text/javascript" src="scripts/function.js"></script>
@@ -48,7 +49,6 @@
               <li>
                 <a class="parent" href="#"><i class="icon-file-alt"></i> Ensino Médio</a> 
                 <ul class="sub-menu">
-                  <li><a href="#">Arte</a></li>
                   <li><a href="#">Biologia</a></li>
                   <li><a href="#">Educação Física</a></li>
                   <li><a href="#">Filosofia</a></li>
@@ -69,7 +69,7 @@
 						<ul class="sub-menu">
 							<li><a href="#">Áudios</a></li>
 							<li><a href="#">Galeria</a></li>
-              				<li><a href="videos.html">Vídeos</a></li>
+              <li><a href="videos.html">Vídeos</a></li>
 						</ul>
 					</li>
           <li><a href="#">Contato</a></li>
@@ -88,30 +88,103 @@
     <!-- Slider -->
     <section id="slider" class="clear">
       <article id="noticias-destaque">
-        <figure id="noticia01" class="noticia"> <figcaption class="titulo-noticia-top"> Titulo da noticia </figcaption> 
-        <figcaption class="noticia-top"> noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia </figcaption> </figure>
+        <figure id="noticia01" class="noticia">
+          <img src="images\noticias\noticia01.jpg" width="100%" height="100%" style="overflow:hidden; position:absolute;">
+          <div id="noticia-top"> 
+            <figcaption class="titulo-top"> Você agora pode testar os projetos de inteligência artificial do Google </figcaption> 
+            <figcaption class="descricao-top"> O Google lançou um site que permite que os usuários experimentem alguns de seus projetos de inteligência artificial... </figcaption>
+          </div>
+        </figure>
 
-        <figure id="noticia02" class="noticia"> <figcaption class="titulo-noticia-top"> Titulo da noticia </figcaption> 
-        <figcaption class="noticia-top"> noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia </figcaption> </figure> 
+        <figure id="noticia02" class="noticia">
+          <img src="images\noticias\noticia02.jpg" width="100%" height="100%" style="overflow:hidden; position:absolute;">
+          <div id="noticia-top"> 
+            <figcaption class="titulo-top"> Windows 10 malandro avisa que Edge é melhor para usuários de Chrome/Firefox </figcaption> 
+            <figcaption class="descricao-top"> As tretas entre fãs e marcas/sistemas como Android e iOS, Apple e Google, NVIDIA e AMD costumam fazer bastante barulho... </figcaption> 
+          </div>
+        </figure> 
 
-        <figure id="noticia03" class="noticia"> <figcaption class="titulo-noticia-bottom"> Titulo da noticia </figcaption>
-        <figcaption class="noticia-bottom"> noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia </figcaption> </figure>
+        <figure id="noticia03" class="noticia">
+          <img src="images\noticias\noticia03.jpg" width="100%" height="100%" style="overflow:hidden; position:absolute;"> 
+          <div id="noticia-bottom"> 
+            <figcaption class="titulo-bottom"> OpenAI de Elon Musk vai usar nuvem Azure da Microsoft </figcaption>
+            <figcaption class="descricao-bottom"> O projeto de pesquisa OpenAI, comandado por Elon Musk, assinou um acordo com a Microsoft... </figcaption> 
+          </div>
+        </figure>
 
-        <figure id="noticia04" class="noticia"> <figcaption class="titulo-noticia-bottom"> Titulo da noticia </figcaption>
+        <figure id="noticia04" class="noticia">
+          <img src="images\noticias\noticia04.jpg" width="100%" height="100%" style="overflow:hidden; position:absolute;">
+          <div id="noticia-bottom">
+            <figcaption class="titulo-bottom"> Governo quer que Facebook proíba comentários de vômito em páginas oficiais </figcaption>
+            <figcaption class="descricao-bottom"> Desde que Michel Temer assumiu a presidência da República, após o afastamento da sua... </figcaption> 
+          </div>
+        </figure>
 
-        <figcaption class="noticia-bottom"> noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia </figcaption> </figure>
-
-        <figure id="noticia05" class="noticia"> <figcaption class="titulo-noticia-bottom"> Titulo da noticia </figcaption>
-        
-        <figcaption class="noticia-bottom"> noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia noticia </figcaption> </figure>
+        <figure id="noticia05" class="noticia">
+          <img src="images\noticias\noticia05.jpg" width="100%" height="100%" style="overflow:hidden; position:absolute;"> 
+          <div id="noticia-bottom"> 
+            <figcaption class="titulo-bottom"> Golpe que oferece chamada de vídeo no WhatsApp atrai 10 mil vítimas em 1 hora </figcaption>
+            <figcaption class="descricao-bottom"> O WhatsApp já liberou as chamadas por vídeos para os usuários... </figcaption> 
+          </div>
+        </figure>
       </article>
     </section>
     <!-- main content -->
     <div id="intro">
-      <section class="clear">
-        <!-- article 1 -->
-        <article id="noticias-recentes" class="two_quarter lastbox">
-        </article>
+      <section id="corpo_pagina" class="clear">
+        <h3 class="noticias-recentes"> Notícias recentes: </h3>
+        <div id="noticias-recentes" class="two_quarter lastbox">
+          <article class="noticias">
+            <header class="titulo-noticia">
+            <a href="news1.html"> Você agora pode testar os projetos de inteligência artificial do Google </a>
+            </header>
+            <div class="noticia"> <img class="capa-noticia" src="images\noticias\noticia01.jpg"> <p> O Google lançou um site que permite que os usuários experimentem alguns de seus projetos de inteligência artificial. O A.I. Experiments traz, entre os itens, um aplicativo que adivinha o que você está desenhando, uma câmera capaz de reconhecer objetos colocados à sua frente e uma ferramenta musical que faz “dupla” com o usuário. </p>
+            </div>
+          </article>
+          <article class="noticias">
+            <header class="titulo-noticia">
+            <a href="news2.html"> Windows 10 malandro avisa que Edge é melhor para usuários de Chrome/Firefox </a>
+            </header>
+            <div class="noticia"> <img class="capa-noticia" src="images\noticias\noticia02.jpg"> <p> As tretas entre fãs e marcas/sistemas como Android e iOS, Apple e Google, NVIDIA e AMD costumam fazer bastante barulho — e basta checar as caixas de comentários de qualquer notícia sobre as marcas aqui no TecMundo para encontrar alguns fãs se digladiando. Porém, mais silenciosa, a guerra entre navegadores também existe, e a Microsoft acabou de dar mais um passo direto contra o Google Chrome e o Mozilla Firefox. </p>
+            </div>
+          </article>
+          <article class="noticias">
+            <header class="titulo-noticia">
+            <a href="news3.html"> OpenAI de Elon Musk vai usar nuvem Azure da Microsoft </a>
+            </header>
+            <div class="noticia"> <img class="capa-noticia" src="images\noticias\noticia03.jpg"> <p> O projeto de pesquisa OpenAI, comandado por Elon Musk, assinou um acordo com a Microsoft. A startup dedicada a investigação no campo da inteligência artificial irá correr seus experimentos na plataforma de nuvem da Microsoft, Azure. </p>
+            </div>
+          </article>
+          <article class="noticias">
+            <header class="titulo-noticia">
+            <a href="news4.html"> Governo quer que Facebook proíba comentários de vômito em páginas oficiais </a>
+            </header>
+            <div class="noticia"> <img class="capa-noticia"  src="images\noticias\noticia04.jpg">  <p> Desde que Michel Temer assumiu a presidência da República, após o afastamento da sua companheira de chapa Dilma Rousseff, várias páginas do Governo Federal no Facebook foram invadidas por comentários com figurinhas de vômito. </p>
+            </div>
+          </article>
+          <article class="noticias" style="border: 0;">
+            <header class="titulo-noticia">
+            <a href="#">  Golpe que oferece chamada de vídeo no WhatsApp atrai 10 mil vítimas em 1 hora </a>
+            </header>
+            <div class="noticia" style="border:0;"> <img class="capa-noticia" src="images\noticias\noticia05.jpg"> <p> O WhatsApp já liberou as chamadas por vídeos para os usuários, mas muita gente continua caindo no golpe que promove o recurso somente para quem fornecer suas informações em um link suspeito. De acordo com a empresa de segurança ESET, uma das campanhas maliciosas atraiu 10 mil vítimas em apenas uma hora no Brasil. </p>
+            </div>
+          </article>
+        </div>
+        <aside id="lateral"> 
+          <script>
+           (function() {
+              var cx = '000366735470300118815:c3lysemwobi';
+              var gcse = document.createElement('script');
+              gcse.type = 'text/javascript';
+              gcse.async = true;
+              gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(gcse, s);
+           })();
+          </script>
+          <gcse:search></gcse:search>
+          <h1> Coloque os anuncios aqui!!! </h1>
+        </aside>
       </section>
     </div>
   </div>
